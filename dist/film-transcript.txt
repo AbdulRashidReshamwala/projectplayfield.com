@@ -1,0 +1,14 @@
+PLAYFIELD — LAUNCH FILM
+Voice generated with elevenlabs.io
+
+I made an app that turns ANY WALL into a game! Because apparently, walls weren't doing enough. Meet Playfield!
+
+You need a cheap projector, an iOS device, and a tripod. That's it! No suspiciously expensive gaming equipment. Mount the phone, connect the projector, and point everything at the wall.
+
+Those little squares? AprilTags. The app uses them to find the projected area, then maps the real room into the game world. Calibration is automatic. Move the setup? Hit recalibrate.
+
+This is Meteor Keeper. Meteors want to DELETE this city. My hands would prefer they didn't. The phone tracks my hands in real time and moves the shields with them. One hand works. Two hands work. No hands? It pauses! Even the wall understands breaks.
+
+But WAIT. There's MORE! You can chop ingredients and cook imaginary soup. Grab a ball and mess with physics. Or draw directly on the wall... without explaining anything to your landlord.
+
+That's Playfield! An experiment in real-world games. What should I make it play next?

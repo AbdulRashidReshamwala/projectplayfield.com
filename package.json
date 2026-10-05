@@ -1,0 +1,14 @@
+{
+  "name": "projectplayfield.com",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "build": "node scripts/build.mjs",
+    "deploy": "npm run build && cf deploy --prebuilt"
+  },
+  "devDependencies": {
+    "@cloudflare/build-output-utils": "0.8.2"
+  }
+}
