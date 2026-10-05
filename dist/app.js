@@ -4,7 +4,7 @@ const heroVideo = $('#hero-video');
 const gameVideo = $('#game-video');
 const motionToggle = $('#motion-toggle');
 let motionPaused = reducedMotion.matches;
-function reflectMotion(){motionToggle.textContent=heroVideo.paused?'▶':'Ⅱ';motionToggle.setAttribute('aria-label',heroVideo.paused?'Play background video':'Pause background video');}
+function reflectMotion(){motionToggle.classList.toggle('is-paused',heroVideo.paused);motionToggle.setAttribute('aria-label',heroVideo.paused?'Play background video':'Pause background video');}
 if(motionPaused)heroVideo.pause();
 heroVideo.addEventListener('play',reflectMotion);heroVideo.addEventListener('pause',reflectMotion);
 motionToggle.addEventListener('click',()=>{motionPaused=!heroVideo.paused;if(motionPaused)heroVideo.pause();else heroVideo.play().catch(()=>{});reflectMotion();});reflectMotion();
