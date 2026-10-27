@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6ecd9"><title>Support — Playfield</title><meta name="description" content="Help with setting up Playfield, the AI game builder and your OpenRouter key, plus how to get in touch."><link rel="canonical" href="https://projectplayfield.com/support"><link rel="icon" href="/assets/playfield-icon.png"><link rel="stylesheet" href="/assets/fonts/fonts.css"><link rel="stylesheet" href="/style.css"></head>
+<body class="doc-page"><a class="skip" href="#main">Skip to content</a>
+<header class="nav wrap"><a class="wordmark" href="/" aria-label="Playfield home"><img src="/assets/playfield-icon.png" alt="" width="44" height="44">playfield</a><nav aria-label="Main navigation"><a href="/support" aria-current="page">Support</a><a href="/privacy">Privacy</a></nav></header>
+<main id="main" class="doc wrap">
+<p class="eyebrow"><span class="status-dot"></span> SUPPORT</p>
+<h1>Stuck? <span class="serif">Let’s fix it.</span></h1>
+<p class="doc-lede">Answers to the usual questions about setting up Playfield and using the game builder. If yours isn’t here, email me: I read every message and reply as soon as I can.</p>
+<a class="doc-contact" href="mailto:abdulrreshamwala@gmail.com?subject=Playfield%20support">abdulrreshamwala@gmail.com <svg class="icon icon-arrow-up-right" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+
+<nav class="doc-toc" aria-label="On this page"><a href="#setup">Setting up</a><a href="#playing">Playing</a><a href="#builder">The game builder</a><a href="#key">Your OpenRouter key</a><a href="#privacy">Privacy controls</a><a href="#report">Report a problem or content</a></nav>
+
+<section id="setup"><h2>Setting up</h2>
+<dl>
+<dt>What do I need?</dt><dd>An iPhone, a projector connected with a USB-C to HDMI adapter, and a tripod that holds both pointed at a wall. Without a projector, games play on the phone screen by touch, and you can still build games.</dd>
+<dt>The app can’t find the projected area.</dt><dd>Playfield calibrates by projecting markers. Keep the whole picture on a flat, plain wall, make sure the phone’s camera sees all of it, and avoid bright light falling straight on the wall. Then choose Recalibrate. Recalibrate again whenever you move the tripod.</dd>
+<dt>Where is the camera permission?</dt><dd>iPhone Settings › Playfield › Camera. The camera is needed to see hands; it is processed on the phone.</dd>
+</dl></section>
+
+<section id="playing"><h2>Playing</h2>
+<dl>
+<dt>My hands aren’t picked up.</dt><dd>Hands are easiest to see in a lit room with the projection landing on them. Stand so your hands are between the projector and the wall, not behind your body, and keep sleeves above the wrist. If nobody’s hands are seen for a while, the game pauses on purpose.</dd>
+<dt>Taps land in the wrong place.</dt><dd>The setup has probably moved since calibration. Choose Recalibrate.</dd>
+</dl></section>
+
+<section id="builder"><h2>The game builder</h2>
+<dl>
+<dt>How does it work?</dt><dd>Open Create, then talk or type what you want to play. The builder is an AI model that writes the game, plays it to check it, and changes it when you ask. It runs through your own OpenRouter account (see below), so it needs a key and your permission before it sends anything.</dd>
+<dt>It asks me to “allow” it. What does that mean?</dt><dd>Before the first request, Playfield shows exactly what the builder sends to OpenRouter: your requests as text, the game’s code, pictures of the game and art descriptions. The camera is a separate, optional choice. The <a href="/privacy#builder">privacy policy</a> explains it in full.</dd>
+<dt>I get “No endpoints found matching your data policy”.</dt><dd>Playfield asks OpenRouter to use only providers that don’t store or train on prompts, and the model you chose has none. Pick another model in Settings › Builder model, or turn off Settings › Privacy › “Skip providers that keep prompts”.</dd>
+<dt>It’s slow or stops replying.</dt><dd>The panel shows how long it has waited for the model. If it stays quiet for over a minute, tap Stop and send your message again. Very long chats get slower: use Reset chat, and the builder carries on from the game’s notes.</dd>
+<dt>Is the game I made private?</dt><dd>Yes. Games are stored on your phone and are not shared with anyone. The builder sees them only while you are building.</dd>
+</dl></section>
+
+<section id="key"><h2>Your OpenRouter key</h2>
+<dl>
+<dt>Why do I need one?</dt><dd>Playfield doesn’t run AI models itself. The builder uses models through your own <a href="https://openrouter.ai" target="_blank" rel="noopener noreferrer">OpenRouter</a> account, and OpenRouter bills its usage to that account. You must be 18 or older to use OpenRouter. Playing games needs no key.</dd>
+<dt>How do I get and add one?</dt><dd>Sign in at openrouter.ai, create an API key under Keys, and copy it. In Playfield, open Create and paste it into the builder’s “Connect your OpenRouter account” card, or go to Settings › OpenRouter API key. Setting a credit limit on the key in OpenRouter caps what the builder can spend.</dd>
+<dt>Where is it stored, and how do I remove it?</dt><dd>In the iPhone Keychain, on this device only, and it is sent only to OpenRouter. Remove it in Settings › OpenRouter API key › Remove key, and revoke it on openrouter.ai if you no longer use it.</dd>
+</dl></section>
+
+<section id="privacy"><h2>Privacy controls</h2>
+<p>In the app’s Settings › Privacy you can stop the builder from using OpenRouter, allow or block the builder from seeing the camera, and choose whether to skip providers that keep prompts. Debug mode (Settings › Debugging) saves play sessions, including camera pictures, on the phone; leave it off unless you are troubleshooting. Details are in the <a href="/privacy">privacy policy</a>.</p></section>
+
+<section id="report"><h2>Report a problem or content</h2>
+<p>If the builder makes something offensive or harmful, or something in the app isn’t working, email <a href="mailto:abdulrreshamwala@gmail.com?subject=Playfield%20report">abdulrreshamwala@gmail.com</a> with what you asked for, what happened, and a screenshot if you can. Delete the game from the home screen to remove it from your phone. I read every report and reply as soon as I can.</p>
+<p>Please include your iPhone model, iOS version and the Playfield version (Settings › About).</p></section>
+</main>
+<footer class="wrap footer"><a class="wordmark" href="/"><img src="/assets/playfield-icon.png" alt="" width="35" height="35">playfield</a><p>An experiment by Abdul Rashid.</p><a class="footer-link" href="/support">Support</a><a class="footer-link" href="/privacy">Privacy</a></footer>
+</body></html>

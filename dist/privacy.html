@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6ecd9"><title>Privacy policy — Playfield</title><meta name="description" content="What the Playfield app and website collect, what the AI game builder sends to OpenRouter, and how to change or withdraw it."><link rel="canonical" href="https://projectplayfield.com/privacy"><link rel="icon" href="/assets/playfield-icon.png"><link rel="stylesheet" href="/assets/fonts/fonts.css"><link rel="stylesheet" href="/style.css"></head>
+<body class="doc-page"><a class="skip" href="#main">Skip to content</a>
+<header class="nav wrap"><a class="wordmark" href="/" aria-label="Playfield home"><img src="/assets/playfield-icon.png" alt="" width="44" height="44">playfield</a><nav aria-label="Main navigation"><a href="/support">Support</a><a href="/privacy" aria-current="page">Privacy</a></nav></header>
+<main id="main" class="doc wrap">
+<p class="eyebrow"><span class="status-dot"></span> PRIVACY POLICY</p>
+<h1>Your room stays <span class="serif">yours.</span></h1>
+<p class="doc-lede">Playfield has no accounts, no ads, no analytics and no tracking. Hands are tracked on your iPhone. The one thing that sends your content off the phone is the AI game builder, and only after you allow it.</p>
+<p class="doc-meta">Last updated 27 October 2026. Applies to the Playfield iOS app and projectplayfield.com.</p>
+
+<nav class="doc-toc" aria-label="On this page"><a href="#who">Who we are</a><a href="#on-device">What stays on your iPhone</a><a href="#builder">The AI game builder</a><a href="#other">Other services the app uses</a><a href="#website">This website</a><a href="#children">Children</a><a href="#choices">Your choices and deleting data</a><a href="#changes">Changes and contact</a></nav>
+
+<section id="who"><h2>Who we are</h2>
+<p>Playfield is made by Abdul Rashid, an individual developer (“we” here). Questions or requests about privacy go to <a href="mailto:abdulrreshamwala@gmail.com">abdulrreshamwala@gmail.com</a>.</p>
+<p>We do not run a server that receives your games, prompts, voice, camera images or OpenRouter key. We never sell data, show ads or use tracking.</p></section>
+
+<section id="on-device"><h2>What stays on your iPhone</h2>
+<ul>
+<li><strong>Camera.</strong> The camera finds the projected area and tracks hands and bodies so games respond to you. This happens on the phone. Playing a game sends no camera images anywhere.</li>
+<li><strong>Your games and settings.</strong> Games you make, their saved data, builder logs and settings are stored in the app on your phone.</li>
+<li><strong>Keys.</strong> Your OpenRouter key (and a Poly Pizza key, if you add one) is kept in the iPhone Keychain on this device. It is only sent to the service it belongs to.</li>
+<li><strong>Debug mode</strong> (off unless you turn it on in Settings) saves each play session on the phone, including a camera picture every 2 seconds, so problems can be investigated. These files stay on the phone until you delete them or the app.</li>
+<li><strong>Voice prompts.</strong> When you talk to the builder, Apple’s speech recognition turns your speech into text. It runs on the iPhone when the phone supports on-device recognition; otherwise Apple processes the audio on its servers under <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple’s privacy policy</a>. Only the resulting text goes to the builder.</li>
+</ul></section>
+
+<section id="builder"><h2>The AI game builder</h2>
+<p>The builder writes games with an AI model. The model does not run on the phone: it runs through <a href="https://openrouter.ai" target="_blank" rel="noopener noreferrer">OpenRouter</a>, using <strong>your own OpenRouter account and API key</strong>. OpenRouter passes each request to a company that runs the model you picked in Settings.</p>
+<p><strong>Nothing is sent before you allow it.</strong> The first time you send the builder a message, Playfield asks for your permission and lists what will be sent. If you choose “Not now”, nothing is sent and every game still plays.</p>
+<p>Once you allow it, the builder sends to OpenRouter and the model’s provider:</p>
+<ul>
+<li>What you type or say to the builder (as text) and your answers to its questions.</li>
+<li>The game you are building: its code, files and the builder’s notes.</li>
+<li>Pictures of the game as it is drawn for the projector. These can show the outlines of hands the camera saw.</li>
+<li>Descriptions of art it draws, sent to the image model you picked, sometimes with existing art from the game as a reference.</li>
+<li>Your OpenRouter key, which authorises each request.</li>
+</ul>
+<p><strong>The camera is a separate choice.</strong> Only if you also turn on “Let the builder see the camera” can the builder take a photo of the play area and send it, for example to check lighting or calibration. The builder shows a camera badge every time it does. This is off unless you turn it on.</p>
+<p>By default Playfield asks OpenRouter to use only providers that do not store your prompts or train on them (the “Skip providers that keep prompts” setting). Image generation does not send this preference yet.</p>
+<p>OpenRouter and the model providers handle this data under their own terms. See <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener noreferrer">OpenRouter’s privacy policy</a> and <a href="https://openrouter.ai/terms" target="_blank" rel="noopener noreferrer">terms</a>, which require users to be 18 or older. We cannot see or delete what is sent to them; OpenRouter bills usage to your account.</p></section>
+
+<section id="other"><h2>Other services the app uses</h2>
+<p>These receive your IP address and the request itself, like any internet request, but no account or personal profile:</p>
+<ul>
+<li><strong>assets.projectplayfield.com</strong> (our asset library, hosted on Cloudflare): the list of 3D models and sounds, the files the builder adds to your games, and the optional natural voice. We keep no logs of our own; Cloudflare processes requests as our host under <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">its privacy policy</a>.</li>
+<li><strong>Openverse</strong> (<a href="https://openverse.org" target="_blank" rel="noopener noreferrer">openverse.org</a>): search words when the builder looks for a sound.</li>
+<li><strong>Poly Pizza</strong> (<a href="https://poly.pizza" target="_blank" rel="noopener noreferrer">poly.pizza</a>): search words and your Poly Pizza key, only if you added one.</li>
+<li><strong>Google Fonts</strong>: the names of fonts a game uses, when it uses one that is not built in.</li>
+<li><strong>Google MediaPipe</strong>: the hand-tracking library runs on the phone. Google says MediaPipe Tasks can send usage and performance statistics to Google; camera images stay on the phone. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s privacy policy</a>.</li>
+</ul></section>
+
+<section id="website"><h2>This website</h2>
+<p>projectplayfield.com has no cookies, analytics or trackers, and its fonts and videos are served from this site. It is hosted on Cloudflare, which processes requests (including your IP address) to deliver and protect the site.</p></section>
+
+<section id="children"><h2>Children</h2>
+<p>The games can be played by anyone, and playing sends nothing off the phone. The AI game builder is for adults: OpenRouter requires its users to be 18 or older. We do not knowingly collect personal information from children. If you think a child has sent us information, email us and we will delete it.</p></section>
+
+<section id="choices"><h2>Your choices and deleting data</h2>
+<ul>
+<li><strong>Withdraw consent</strong> any time in the app’s Settings › Privacy: turn off “Builder may use OpenRouter” (the builder stops at once) or “Let the builder see the camera”.</li>
+<li><strong>Remove your key</strong> in Settings › OpenRouter API key › Remove key. You can also revoke it on openrouter.ai.</li>
+<li><strong>Delete games</strong> from the home screen. Deleting the app deletes all of its data on the phone, including debug sessions; the Keychain key can be removed with Remove key first.</li>
+<li><strong>Data sent to OpenRouter or a provider</strong> is held by them; ask them under their policies.</li>
+<li>We hold no personal data about you on our servers, so there is no account to delete. For any other request, including access or deletion rights you have where you live, email us.</li>
+</ul></section>
+
+<section id="changes"><h2>Changes and contact</h2>
+<p>If the app starts sending a new kind of data, we will update this page and the app will ask for your permission again before sending it. The date at the top shows the latest change.</p>
+<p>Contact: <a href="mailto:abdulrreshamwala@gmail.com">abdulrreshamwala@gmail.com</a>. For help with the app, see <a href="/support">Support</a>.</p></section>
+</main>
+<footer class="wrap footer"><a class="wordmark" href="/"><img src="/assets/playfield-icon.png" alt="" width="35" height="35">playfield</a><p>An experiment by Abdul Rashid.</p><a class="footer-link" href="/support">Support</a><a class="footer-link" href="/privacy">Privacy</a></footer>
+</body></html>
