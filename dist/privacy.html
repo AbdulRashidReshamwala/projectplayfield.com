@@ -1,97 +1,44 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6ecd9"><title>Privacy policy — Playfield</title><meta name="description" content="What the Playfield app and website collect, your account, what the AI game builder sends and to whom, and how to change, withdraw or delete it."><link rel="canonical" href="https://projectplayfield.com/privacy"><link rel="icon" href="/assets/playfield-icon.png"><link rel="stylesheet" href="/assets/fonts/fonts.css"><link rel="stylesheet" href="/style.css"></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6ecd9"><title>Privacy policy — Playfield</title><meta name="description" content="What Playfield collects, what the AI game builder sends and to whom, and how to withdraw consent or delete your data."><link rel="canonical" href="https://projectplayfield.com/privacy"><link rel="icon" href="/assets/playfield-icon.png"><link rel="stylesheet" href="/assets/fonts/fonts.css"><link rel="stylesheet" href="/style.css"></head>
 <body class="doc-page"><a class="skip" href="#main">Skip to content</a>
 <header class="nav wrap"><a class="wordmark" href="/" aria-label="Playfield home"><img src="/assets/playfield-icon.png" alt="" width="44" height="44">playfield</a><nav aria-label="Main navigation"><a href="/support">Support</a><a href="/privacy" aria-current="page">Privacy</a></nav></header>
 <main id="main" class="doc wrap">
 <p class="eyebrow"><span class="status-dot"></span> PRIVACY POLICY</p>
 <h1>Your room stays <span class="serif">yours.</span></h1>
-<p class="doc-lede">Playfield has no ads, no analytics and no tracking. Hands are tracked on your iPhone and playing a game sends nothing off it. The AI game builder needs a Sign in with Apple account and sends your requests to our server, and from there to AI providers, only after you allow it.</p>
+<p class="doc-lede">Playfield has no ads, no analytics and no tracking. Hands are tracked on your iPhone and playing a game sends nothing off it. The AI game builder needs an account and sends your requests to AI providers, only after you allow it.</p>
 <p class="doc-meta">Last updated 31 October 2026. Applies to the Playfield iOS app and projectplayfield.com.</p>
 
-<nav class="doc-toc" aria-label="On this page"><a href="#who">Who we are</a><a href="#on-device">What stays on your iPhone</a><a href="#account">Your account</a><a href="#builder">The AI game builder</a><a href="#safety">Content filter, age check and reports</a><a href="#kept">What our server keeps</a><a href="#other">Other services the app uses</a><a href="#website">This website</a><a href="#children">Children</a><a href="#choices">Your choices and deleting data</a><a href="#changes">Changes and contact</a></nav>
+<nav class="doc-toc" aria-label="On this page"><a href="#who">Who we are</a><a href="#on-device">On your iPhone</a><a href="#account">Your account</a><a href="#builder">The AI game builder</a><a href="#safety">Safety and age</a><a href="#other">Other services</a><a href="#children">Children</a><a href="#choices">Your choices and deleting data</a></nav>
 
 <section id="who"><h2>Who we are</h2>
-<p>Playfield is made by Abdul Rashid, an individual developer (“we” here). Questions or requests about privacy go to <a href="mailto:abdulrreshamwala@gmail.com">abdulrreshamwala@gmail.com</a>.</p>
-<p>We never sell data, show ads or use tracking.</p></section>
+<p>Playfield is made by Abdul Rashid, an individual developer. Contact: <a href="mailto:abdulrreshamwala@gmail.com">abdulrreshamwala@gmail.com</a>. We never sell data.</p></section>
 
-<section id="on-device"><h2>What stays on your iPhone</h2>
-<ul>
-<li><strong>Camera.</strong> The camera finds the projected area and tracks hands and bodies so games respond to you. This happens on the phone. Playing a game sends no camera images anywhere.</li>
-<li><strong>Your games and settings.</strong> Games you make, their code and files, saved data, builder logs and settings are stored in the app on your phone. Games are not shared with other users.</li>
-<li><strong>Your age check result.</strong> Whether you are 13 or older is stored on the phone only (see <a href="#safety">Content filter, age check and reports</a>).</li>
-<li><strong>Keys.</strong> If you add a Poly Pizza key, it is kept in the iPhone Keychain on this device and sent only to Poly Pizza. Your sign-in session is also kept in the Keychain.</li>
-<li><strong>Debug mode</strong> (off unless you turn it on in Settings) saves each play session on the phone, including a camera picture every 2 seconds, so problems can be investigated. These files stay on the phone until you delete them or the app.</li>
-<li><strong>Voice prompts.</strong> When you talk to the builder, Apple’s speech recognition turns your speech into text. It runs on the iPhone when the phone supports on-device recognition; otherwise Apple processes the audio on its servers under <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple’s privacy policy</a>. Only the resulting text goes to the builder.</li>
-</ul></section>
+<section id="on-device"><h2>On your iPhone</h2>
+<p>The camera is used on the phone to track hands. Camera images are not uploaded when you play. Your games, settings and age check result are stored on the phone, and games are not shared with other users. Voice prompts are turned into text by Apple’s speech recognition, on the phone where supported, otherwise by Apple.</p></section>
 
 <section id="account"><h2>Your account</h2>
-<p>You can play every game without an account. The AI game builder needs one, and the only way to sign in is <strong>Sign in with Apple</strong>. When you sign in, Apple shares with Playfield an account identifier and, if you allow it, your name and email address (or Apple’s private relay address, if you hide your email). You can decline or hide the email on Apple’s sign-in sheet.</p>
-<p>Playfield stores these with <strong>Firebase Authentication</strong>, a sign-in service run by Google. We use them to run your account, to recognise you when you sign in again, to enforce your monthly allowance, and to answer support requests. We do not use them for marketing.</p></section>
+<p>Playing needs no account. The game builder needs Sign in with Apple. Apple shares an account identifier and, if you allow it, your name and email (or a private relay address). Playfield stores them with Firebase Authentication (Google) to run your account and answer support requests.</p></section>
 
 <section id="builder"><h2>The AI game builder</h2>
-<p>The builder writes games with an AI model. The model does not run on the phone, and it does not use your own AI account. Each request goes from the app to <strong>Playfield’s server</strong> (api.projectplayfield.com, hosted on Cloudflare). The server chooses the model for the quality you picked (Quick, Balanced or Best) and passes the request to <a href="https://openrouter.ai" target="_blank" rel="noopener noreferrer">OpenRouter</a>, which passes it to the company that runs that model.</p>
-<p><strong>Nothing is sent before you allow it.</strong> The first time you send the builder a message, Playfield asks for your permission and lists what will be sent. If you choose “Not now”, nothing is sent and every game still plays.</p>
-<p>Once you allow it, the builder sends, through our server to OpenRouter and the model’s provider:</p>
-<ul>
-<li>What you type or say to the builder (as text) and your answers to its questions.</li>
-<li>The game you are building: its code, files and the builder’s notes.</li>
-<li>Pictures of the game as it is drawn for the projector. These can show the outlines of hands the camera saw.</li>
-<li>Descriptions of art it draws, sent to an image model, sometimes with existing art from the game as a reference.</li>
-<li>The messages you send while the builder is working. A small model reads them to decide whether they correct the builder, wait for later, ask something or stop it.</li>
-<li>Your account ID, which Playfield attaches to each request so OpenRouter can attribute usage. It is not your name or email.</li>
-</ul>
-<p><strong>The camera is a separate choice.</strong> If “Let the builder see the camera” is on, the builder can take a photo of the play area and send it, for example to check lighting or calibration. The builder shows a camera badge every time it does. The permission sheet shows this choice next to Allow; you can switch it off there or any time in Settings › Privacy.</p>
-<p>Playfield’s server always asks OpenRouter to use only providers that do not store your prompts or train on them. If no such provider is available for the model, the request fails with an error rather than going to one that keeps prompts. Image generation uses the same route.</p>
-<p>The builder also looks things up for your game. Search words for sounds go to Openverse, search words for 3D models go to Polyfork and, if you added a key, Poly Pizza (see <a href="#other">Other services</a>).</p>
-<p>OpenRouter and the model providers handle this data under their own terms; see <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener noreferrer">OpenRouter’s privacy policy</a> and <a href="https://openrouter.ai/terms" target="_blank" rel="noopener noreferrer">terms</a>. We cannot see or delete what they hold.</p></section>
+<p>The builder runs on servers, not on your phone. Nothing is sent until you allow it. Once you do, the app sends your requests (typed, or speech as text), the game’s code and files, pictures of the game as drawn for the projector (these can show hand outlines), and art descriptions to Playfield’s server (api.projectplayfield.com). The server passes them to <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener noreferrer">OpenRouter</a> and the company that runs the AI model, under their own terms, with your account ID so usage can be counted. Playfield asks for providers that do not store prompts or train on them.</p>
+<p>If “Let the builder see the camera” is on (you choose when you allow the builder), it can also send photos of the play area. Playfield’s server does not keep your requests or the builder’s replies. It keeps a usage total under your account ID for your monthly allowance.</p></section>
 
-<section id="safety"><h2>Content filter, age check and reports</h2>
-<p><strong>Content filter.</strong> Each new request and each image description is checked by a safety model (Meta’s Llama Guard, run through OpenRouter) before the builder sees it. If a request is blocked, the app tells you and the builder starts a fresh session. Our server logs that a block happened, with your account ID and the category, not the text of the request.</p>
-<p><strong>Age check.</strong> The builder is for people aged 13 and over. Playfield asks Apple’s Declared Age Range service whether you are 13 or older. Apple tells Playfield only that answer, not your birthday. The answer is stored on your iPhone and checked again about once a month. It is not sent to our server. Where Apple gives no answer and no law where you are requires one, you can tell Playfield you are 13 or older; that choice is also stored on the iPhone only. If you are under 13, the builder stays off.</p>
-<p><strong>Reports.</strong> You can report builder messages, pictures, questions and games with the flag button. A report is sent to and stored on our server: your account ID, the reason and note you chose, a copy of the reported text, the request that produced it, the model used, the game name, the app version and a small picture of the content. We review reports and may act on them, including by limiting an account. A report is not sent to anyone else.</p></section>
+<section id="safety"><h2>Safety and age</h2>
+<p>Requests are checked by a content filter before the builder sees them. The builder is for people aged 13 and over: Apple’s age check tells Playfield only whether you are 13 or older, and the result stays on your phone. If you report builder content with the flag button, the report (your account ID, the content, your note and a small picture) is sent to and stored on our server so we can review it.</p></section>
 
-<section id="kept"><h2>What our server keeps</h2>
-<p>Our server does <strong>not</strong> keep your builder requests, the model’s replies, your games or your camera pictures. It keeps only:</p>
-<ul>
-<li><strong>Your account</strong> (the identifier, name and email from Sign in with Apple), held by Firebase, until you delete your account.</li>
-<li><strong>A usage record</strong> under your account ID: what your requests have cost this month and in total, plus any extra credit we gave you, to enforce your monthly allowance and to stop abuse. It holds no request content.</li>
-<li><strong>Reports</strong> you send, as described above.</li>
-<li><strong>Operational logs.</strong> Cloudflare, our host, processes each request, including your IP address, to deliver and protect the service under <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">its privacy policy</a>.</li>
-</ul>
-<p>We have no fixed deletion schedule for usage records and reports: we keep them for as long as needed to enforce allowances, review safety reports and prevent abuse. You can ask us to delete them (see below).</p></section>
-
-<section id="other"><h2>Other services the app uses</h2>
-<p>These receive your IP address and the request itself, like any internet request:</p>
-<ul>
-<li><strong>Apple</strong> (Sign in with Apple, Declared Age Range, speech recognition) under <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple’s privacy policy</a>.</li>
-<li><strong>Google Firebase Authentication</strong>: your sign-in, as described above, under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s privacy policy</a>.</li>
-<li><strong>assets.projectplayfield.com</strong> (our asset library, hosted on Cloudflare): the list of 3D models and sounds, the files the builder adds to your games, and the optional natural voice. We keep no logs of our own.</li>
-<li><strong>Openverse</strong> (<a href="https://openverse.org" target="_blank" rel="noopener noreferrer">openverse.org</a>): search words when the builder looks for a sound.</li>
-<li><strong>Polyfork</strong> (<a href="https://polyfork.dev" target="_blank" rel="noopener noreferrer">polyfork.dev</a>): search words, and the models it downloads from Polyfork.</li>
-<li><strong>Poly Pizza</strong> (<a href="https://poly.pizza" target="_blank" rel="noopener noreferrer">poly.pizza</a>): search words and your Poly Pizza key, only if you added one.</li>
-<li><strong>Google Fonts</strong>: the names of fonts a game uses, when it uses one that is not built in.</li>
-<li><strong>Google MediaPipe</strong>: the hand-tracking library runs on the phone. Google says MediaPipe Tasks can send usage and performance statistics to Google; camera images stay on the phone.</li>
-</ul></section>
-
-<section id="website"><h2>This website</h2>
-<p>projectplayfield.com has no cookies, analytics or trackers, and its fonts and videos are served from this site. It is hosted on Cloudflare, which processes requests (including your IP address) to deliver and protect the site.</p></section>
+<section id="other"><h2>Other services</h2>
+<p>Apple (sign-in, age check, speech), Google Firebase (sign-in), Cloudflare (hosting), OpenRouter and model providers (the builder), and, for search words only, Openverse, Polyfork and, if you add a key, Poly Pizza. Each handles data under its own privacy policy. This website has no cookies or trackers.</p></section>
 
 <section id="children"><h2>Children</h2>
-<p>The games can be played by anyone, and playing sends nothing off the phone. The AI game builder is for people aged 13 and over, and needs an Apple Account and the age check above. We do not knowingly collect personal information from children under 13. If you think a child has sent us information, email us and we will delete it.</p></section>
+<p>Playing is open to everyone and sends nothing off the phone. The builder is for people 13 and over. We do not knowingly collect personal information from children under 13; if you think we have, email us and we will delete it.</p></section>
 
 <section id="choices"><h2>Your choices and deleting data</h2>
 <ul>
-<li><strong>Withdraw consent</strong> any time in the app’s Settings › Privacy: turn off “Builder may send requests to AI providers” (the builder stops at once) or “Let the builder see the camera”.</li>
-<li><strong>Delete your account</strong> in Settings › Account › Delete account. This deletes your Firebase user (your name, email and Apple identifier) and revokes the Sign in with Apple connection. Your games stay on your phone.</li>
-<li><strong>Delete usage records and reports</strong> linked to your account: email us and include your user ID (tap “Signed in as” in Settings to copy it; do this before you delete your account, because the ID is no longer shown afterwards). The in-app deletion does not remove these records automatically; we delete them when you ask.</li>
-<li><strong>Delete games</strong> from the home screen. Deleting the app deletes all of its data on the phone, including debug sessions.</li>
-<li><strong>Data sent to OpenRouter or a provider</strong> is held by them; ask them under their policies.</li>
-<li>For any other request, including access or deletion rights you have where you live, email us.</li>
-</ul></section>
-
-<section id="changes"><h2>Changes and contact</h2>
-<p>If the app starts sending a new kind of data, we will update this page and the app will ask for your permission again before sending it. The date at the top shows the latest change.</p>
-<p>Contact: <a href="mailto:abdulrreshamwala@gmail.com">abdulrreshamwala@gmail.com</a>. For help with the app, see <a href="/support">Support</a>.</p></section>
+<li>Turn off the builder’s use of AI providers, or its camera access, any time in Settings › Privacy.</li>
+<li>Delete your account in Settings › Account › Delete account. This deletes your sign-in details. Your games stay on your phone until you delete them.</li>
+<li>To delete your usage total and any reports linked to your account, or for any other privacy request, email <a href="mailto:abdulrreshamwala@gmail.com">abdulrreshamwala@gmail.com</a>.</li>
+</ul>
+<p>If we change what the app sends, we will update this page and ask for your permission again.</p></section>
 </main>
 <footer class="wrap footer"><a class="wordmark" href="/"><img src="/assets/playfield-icon.png" alt="" width="35" height="35">playfield</a><p>An experiment by Abdul Rashid.</p><a class="footer-link" href="/support">Support</a><a class="footer-link" href="/privacy">Privacy</a></footer>
 </body></html>
